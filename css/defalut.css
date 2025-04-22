@@ -197,8 +197,9 @@ footer {
 
 footer > h1{
     color: #ffffff;
-    font-size: 10px;
-    line-height: 50px;
+    font-size: 12px;
+    padding-top: 17px;
+    line-height: 20px;
     text-align: center;
 }
 
@@ -245,4 +246,136 @@ aside .close{
     top: 20px;
     font-size: 21px;
     color: #ffffff;
+}
+
+
+/* ------------detail - 제품이미지(TOP)------------ */
+.top_product {
+    position: relative;
+}
+.top_product_img{
+    width:100%;
+}
+.top_product .info{
+    position: absolute;
+    bottom:15px;
+    left:200px;
+    right:0;
+    background:rgb(255, 255, 255,0.9);
+    padding: 10px 20px;
+    box-shadow:0 0 8px rgba(0,0,0,.25);
+}
+.top_product .info .desc{  
+    display: flex;
+    justify-content: space-between;   /*요소사이의 균일한 간격*/
+}
+.top_product .info h2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    color: #006a8a;
+    margin-bottom: 5px;
+}
+
+.top_product .info .price, .rate{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 21px;
+    color:#02bbf3;
+}
+
+
+/* ------------- detail 제품상세정보------------- */
+
+.details_info {
+    margin-top: 20px;
+}
+
+
+.details_info h1{
+    display: inline;
+    font-size: 26px;
+    line-height: 29px;
+    color: #007194;
+}
+
+
+
+.details_info h2{
+    display: inline;
+    font-size: 26px;
+    line-height: 29px;
+    color: #007194;
+}
+
+.details_info h3{
+    display: inline;
+    margin-left: 20px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #757575;
+}
+
+.details_info p{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 30px;
+    color: #2e2e2e;
+}
+.details_info form{
+    margin-top: 20px;
+}
+
+.details_info form select{
+    width: 100px;
+    height: 23px;
+    font-size: 10px;
+    line-height: 23px;
+    border:1px solid #999;    
+    color: #2e2e2e;
+    margin-right: 23px;
+}
+.details_info form .btn{
+    display: block;
+    margin-top: 25px;
+}
+
+
+
+/* ----------detail - 제품추천리스트(하단)------------ */
+
+.recommand_products{
+    background-color: rgba(235, 235, 235, 0.3);
+    position: relative;
+    margin: 0;
+    padding-left:25px;    
+ }
+
+ .recommand_products h1{
+    font-size: 20px;
+    line-height: 30px;
+    color: #3f3f3f;
+    padding-top: 20px;
+    text-align: center;
+ }
+
+.recommand_list li{
+    width: 125px;
+    margin: 50px 0;
+}
+.recommand_list li img{
+    width:125%;
+}
+
+.recommand_list li h3{
+    font-size: 17px;
+    line-height: 25px;
+    color: #1f1f1f;
+    margin-top: 15px;
+}
+.recommand_list li h4{
+    font-size: 13px;
+    line-height: 21px;
+    color: #00424b;
+    margin-top: 5px;
 }
