@@ -348,8 +348,7 @@ aside .close{
     background-color: rgba(235, 235, 235, 0.3);
     position: relative;
     margin: 0;
-    padding-left:25px;    
- }
+}
 
  .recommand_products h1{
     font-size: 20px;
@@ -364,15 +363,16 @@ aside .close{
     list-style: none;
     display: flex; 
     flex-wrap:wrap;
-    margin-left: 15px;
+    overflow-x: auto;
+    overflow: hidden;
 }
 
 .recommand_list li{
     width: 50%;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 .recommand_list li img{
-    width:85%;
+    width:60%;
 }
 
 .recommand_list li h3{
